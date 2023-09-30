@@ -1,0 +1,84 @@
+/* Include your font imports here */
+
+body {
+  font-family: 'Livvic', sans-serif;
+  background-color: #f4f4f4;
+  /* Background color for the entire page */
+background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.navbarcss {
+  background-color: #3f51b5;
+  /* Navbar background color */
+  color: #fff;
+  /* Text color in Navbar */
+  font-size: 20px;
+  padding-left: 20px;
+  max-height: 80px;
+  /* Left padding for Navbar elements */
+}
+
+.hoverli:hover {
+  background-color: #7686ea;
+ 
+  /* Hover color for Navbar links */
+}
+
+.hoverli{
+  margin-left: 30px;
+}
+
+.btnp {
+  background-color: #ff5722;
+  /* Search button background color */
+  border: none;
+  color: #fff;
+  /* Search button text color */
+}
+
+.ui {
+  padding-left: 300px;
+}
+
+/* Style the search input field */
+.form-control {
+  border: 2px solid #ff5722;
+  /* Search input border color */
+  border-radius: 0;
+}
+
+/* Style the search input placeholder text */
+.form-control::placeholder {
+  color: #999;
+}
+
+/* Style the search input on focus */
+.form-control:focus {
+  border-color: #ff5722;
+  box-shadow: none;
+}
+
+/* Style the search input button on hover */
+.btn-outline-info.btnp:hover {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+/* Sizing of map container */
+
+.leaflet-container{
+  height: 100vh;
+}
+
+.cluster-icon{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
